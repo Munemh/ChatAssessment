@@ -73,7 +73,7 @@ export default function ProfileScreen({ theme, setTheme }: any) {
   );
 
   return (
-    <>
+    <View style={{ backgroundColor: currentTheme.colors.background,flex:1}}>
       <FlatList
         contentContainerStyle={{
           padding: 16,
@@ -94,7 +94,7 @@ export default function ProfileScreen({ theme, setTheme }: any) {
           🔔 Push Notifications Enabled
         </Snackbar>
       )}
-    </>
+    </View>
   );
 }
 

@@ -150,6 +150,7 @@ const styles = StyleSheet.create({
   sendButton: {
     marginLeft: 8,
     paddingHorizontal: 16,
+    paddingVertical: 10,
     justifyContent: 'center',
     borderRadius: 20,
   },

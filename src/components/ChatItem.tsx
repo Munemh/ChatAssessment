@@ -54,7 +54,8 @@ const styles = StyleSheet.create({
   },
   icon: {
     fontSize: 18,
-    width:heightPercentageToDP(10)
+    width: heightPercentageToDP(5),
+    padding:2
 
   },
 });
